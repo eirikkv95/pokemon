@@ -1,12 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
 import App from "./App";
+import { PokemonProvider } from "./context/pokemonContext";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PokemonProvider>
+      <App />
+    </PokemonProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

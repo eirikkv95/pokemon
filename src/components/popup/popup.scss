@@ -1,0 +1,14 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgb(201, 201, 255);
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+}
+
+.open {
+  opacity: 1;
+}

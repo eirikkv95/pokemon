@@ -1,9 +1,12 @@
 import React from "react";
+import PokemonList from "./components/pokemonList";
+import { Popup } from "./components/popup/popup";
 
 function App() {
   return (
     <div className="App">
-      <h1>Pokemon</h1>
+      <PokemonList />
+      <Popup />
     </div>
   );
 }
